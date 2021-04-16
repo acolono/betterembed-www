@@ -1,1 +1,45 @@
-hi this is a betterembed widget. (WIP)
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>BetterEmbed Single Component Markup and Vanilla JS Script</title>
+<link rel="stylesheet" href="./embed-betterembed/style.css">
+
+</head>
+<body>
+    <article class="betterembed js-betterembed">
+      <button type="button" class="betterembed__show-original-element js-betterembed-show-message"></button>
+      <div class="betterembed__item">
+        <header>
+          <h3 class="betterembed__network">Twitter</h3>
+        </header>
+        <div class="betterembed__body">
+          <div class="betterembed__msg">
+            <p>
+              With a click on the link below, the original content will be loaded. This can include remote content and you can possibly be tracked from the original provider.</p><p><strong>{{ Text should be adopted for your GDPR needs }}</strong></p>
+            <a href="javascript:;" class="betterembed__msg-button-primary js-betterembed-load-remote">show original content</a>
+            <a href="javascript:;" class="betterembed__msg-button-secondary js-betterembed-close">close</a>
+          </div>
+          <figure class="betterembed__media">
+            <img src="embed-betterembed/acolono-splashawards.jpg" alt="embed image">
+          </figure>
+          <h3 class="betterembed__title">acolono GmbH on Twitter</h3>
+          <div class="betterembed__text">
+            We love to splash! Part of our team attended the Austrian/German #splashawards yesterday at @burda_news in Munich. Nominated three times we won the award together with @getunik in the Non-Profit category for the @WWF_Schweiz guides project! YEAH!!
+            <a class="betterembed__read-more" href="https://twitter.com/acolono/status/1122073732565086208" target="_blank" rel="nofollow noopener">read more</a>
+          </div>
+          <footer class="betterembed__footer">
+            <span class="betterembed__author">
+              <a href="https://twitter.com/acolono" target="_blank" rel="nofollow noopener">acolono GmbH</a>
+            </span>
+            <span>x days ago</span>
+          </footer>
+        </div>
+      </div>
+      <div class="betterembed__embed"></div>
+    </article>
+
+  <script  src="./embed-betterembed/script.js"></script>
+
+</body>
+</html>
