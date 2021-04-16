@@ -41,4 +41,4 @@ This web page is cleaner than 73% of web pages tested
 **0.43g of CO2** is produced every time someone visits this web page.
 
 
-## you are welcome if you want to help with other Analysen
+## you are welcome if you want to help with other analyses
